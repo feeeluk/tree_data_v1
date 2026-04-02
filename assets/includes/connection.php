@@ -7,7 +7,7 @@
 	date_default_timezone_set('Europe/London');
 
 	//if it matches the live environment then set variables to server paths	
-	if($_SERVER['SERVER_NAME']==="treedata.pdhtechnology.com")
+	if($_SERVER['SERVER_NAME']==="treedatav1.pdhtechnology.com")
 		{
 			// set server access variables 
 			$hostname = "db5020087546.hosting-data.io"; 
@@ -16,7 +16,7 @@
 			$databaseName = "dbs15480047";
 		}
 	//detect the server name - if it matches the local testing environment then set variables to local paths
-	elseif($_SERVER['SERVER_NAME']==="treedata.test")
+	elseif($_SERVER['SERVER_NAME']==="treedatav1.test")
 		{
 			// set server access variables 
 			$hostname = "localhost"; 
