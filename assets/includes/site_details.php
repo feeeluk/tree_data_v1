@@ -4,20 +4,20 @@
     $host = $_SERVER['HTTP_HOST'];
 
     $is_live = (
-        $host === "treedata.pdhtechnology.com"
+        $host === "treedatav1.pdhtechnology.com"
     );
 
     if ($is_live) {
 
         // Live 
-        $site = "https://treedata.pdhtechnology.com";
+        $site = "https://treedatav1.pdhtechnology.com";
         $siteTitle = "Treedata";
         $title = "Treedata";     
 
     } else {
 
         // Test
-        $site = "http://treedata.test";
+        $site = "http://treedatav1.test";
         $siteTitle = "Treedata";
         $title = "TEST Treedata";
     }
