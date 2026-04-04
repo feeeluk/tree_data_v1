@@ -7,6 +7,10 @@
         $host === "treedatav1.pdhtechnology.com"
     );
 
+    $is_live_test = (
+        $host === "test-treedatav1.pdhtechnology.com"
+    );
+
     if ($is_live) {
 
         // Live 
@@ -14,12 +18,19 @@
         $siteTitle = "Treedata";
         $title = "Treedata";     
 
+    } elseif ($is_live_test) {
+
+        // Live Test
+        $site = "https://test-treedatav1.pdhtechnology.com";
+        $siteTitle = "LIVE TEST";
+        $title = "LIVE TEST - Treedata";     
+
     } else {
 
         // Test
         $site = "http://treedatav1.test";
-        $siteTitle = "Treedata";
-        $title = "TEST Treedata";
+        $siteTitle = "LOCAL TEST";
+        $title = "LOCAL TEST - Treedata";
     }
 
 ?>
