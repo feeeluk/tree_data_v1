@@ -31,7 +31,7 @@
 			$hostname = "localhost"; 
 			$username = "phil"; 
 			$password = "Ccyh68@c3145327"; 
-			$databaseName = "treedatav1";
+			$databaseName = "tree_data_v1";
 		}
 
 	// create a variable that stores the mysql_connection details, and connects to the database
