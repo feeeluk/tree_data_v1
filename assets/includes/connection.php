@@ -28,9 +28,9 @@
 	elseif($_SERVER['SERVER_NAME']==="treedatav1.test")
 		{
 			// set server access variables 
-			$hostname = "localhost"; 
-			$username = "phil"; 
-			$password = "Ccyh68@c3145327"; 
+			$hostname = "127.0.0.1"; 
+			$username = "root"; 
+			$password = ""; 
 			$databaseName = "tree_data_v1";
 		}
 
