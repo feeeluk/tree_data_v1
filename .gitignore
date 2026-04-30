@@ -1,0 +1,29 @@
+# Laravel / PHP
+/vendor/
+/node_modules/
+.env
+.env.*
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# Composer / NPM junk
+composer.lock
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# IDEs
+/.idea/
+/.vscode/
+/*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build outputs
+/public/build/
+/public/hot
+/public/storage

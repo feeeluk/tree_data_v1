@@ -6,6 +6,12 @@
 	// set the default time to avoid stupid error on local machine - I should probably figure out how to change the setting on my Apache server
 	date_default_timezone_set('Europe/London');
 
+	// set variables 
+	$hostname = ""; 
+	$username = ""; 
+	$password = ""; 
+	$databaseName = "";
+
 	//etect the server name - if it matches the live environment then set variables to server paths	
 	if($_SERVER['SERVER_NAME']==="treedatav1.pdhtechnology.com")
 		{
